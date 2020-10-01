@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.body-content {
+  width: 100%;
+  padding: 10px;
+  font-family: 18px;
+  text-align: justify;
+  line-height: 40px;
+  box-sizing: border-box;
+}
+.footer {
+  width: 100%;
+  display: block;
+  background: green;
+}
+.inner-footer {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.footer-items {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.footer-items p {
+  color: black;
+  text-align: justify;
+  font-size: 16px;
+  padding: 5px 3px;
+  line-height: 25px;
+}
+h1 {
+  color: black;
+  font-size: 22px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+h2 {
+  color: black;
+  font-weight: lighter;
+  margin: 10px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.border {
+  width: 40px;
+  height: 2px;
+  background: black;
+}
+ul li {
+  list-style-type: none;
+  line-height: 30px;
+  font-size: 16px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+ul li a:hover {
+  background: rgb(69, 216, 11);
+  transition: 0.3s;
+}
+
+.social-media {
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+.social-media i {
+  width: 15px;
+  height: 15px;
+  margin: 20px 15px;
+  border-radius: 50%;
+  border-radius: 1px solid yellowgreen;
+  padding: 10px;
+}
+.social-media i:hover {
+  background: red;
+  transition: 0.3s;
+}
+.footer-bottom {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  background: coral;
+  padding: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
